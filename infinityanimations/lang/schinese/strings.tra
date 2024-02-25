@@ -1,0 +1,174 @@
+/* =================================================== *
+ *                 Main component (0)                  *
+ * --------------------------------------------------- *
+ *  t-main.tpa traified                                *
+ * =================================================== */
+@10000 = ~蛇人法师~               // = strref #1154  (BG2)
+@10001 = ~蛇人~                    // = strref #1323  (BG2)
+@10002 = ~豺狼人队长~              // = strref #2243  (BG2)
+@10003 = ~大地精队长~          // = strref #2258  (BG2)
+@10004 = ~大地精巫师~           // = strref #2268  (BG2)
+@10005 = ~巴洛恶魔~                      // = strref #8449  (BG2)
+@23827 = ~[TANAR'RI 02] ~ [tanar02a]  // = strref #23827 (BGEE) !!! DO NOT TRANSLATE !!!
+@23831 = ~[TANAR'RI 01] ~ [tanar01a]  // = strref #23831 (BGEE) !!! DO NOT TRANSLATE !!!
+
+
+/* =================================================== *
+ *               Distinctive Fiends (50)               *
+ * --------------------------------------------------- *
+ *  t-fiend.tpa traified                               *
+ * =================================================== */
+
+// Nabassu NWN soundset
+// --------------------
+@10101 = ~谁打扰我了？~ [t-nab04]            // = c_demon_slct.wav - #10739
+@10102 = ~Rawrr!~ [t-nab03]                      // = c_demon_atk3.wav (Polish sound clip missing replaced with English one)
+@10103 = ~我要撕碎你的灵魂！~ [t-nab05]      // = c_demon_bat1.wav - #10737
+@10104 = ~你的痛苦将是永恒的！~ [t-nab06] // = c_demon_bat2.wav - #10738
+// sound clips without strref: t-nab01 = c_demon_atk1.wav - t-nab02 = c_demon_atk2.wav - t-nab07 = c_demon_hit1.wav - t-nab08 = c_demon_hit2.wav - t-nab09 = c_demon_dead.wav (Polish sound clips missing replaced with English ones)
+
+// Night Hag PsT soundset
+// ----------------------
+@10110 = ~好的……你好，美女！~ [t-hag01]                    // = rav001.wav
+@10111 = ~你的骨头和鲜血将铺满我的花园。~ [t-hag77] // = rav077.wav
+@10112 = ~走开，我死定了。~ [t-hag90a]                     // = rav090a.wav
+@10113 = ~别推我！~ [t-hag13]                              // = rav013.wav - missing French and German (empty sound clips!) have been replaced with English sound clip.
+// sound clips without strref: t-hag66a_b_c = rav066_b_c.wav - hag06a = swi_01a.wav - hag06b = swi_01b.wav
+
+// Erinyes get wings
+// -----------------
+@10121 = ~翅膀~
+// Gwen fix: BGEE #27583 strref for better 1pp, Infinity Animations and EE compatibility. If 1pp is already translated, please copy paste 1pp @209101 and @209102 strrefs as @10121 and @10122 IA strrefs
+@10122 = ~这些柔软而有羽毛的翅膀似乎是用天堂般的设计做成的。经过仔细检查，它们原来是戴在底座上的两条缎带上的假人。虽然没有散发出明显的魔法光环，但翅膀似乎确实以一种违背其所谓机制的方式与机械装置一起移动。
+
+数据资料：
+
+类型：翅膀
+需求：
+  穿戴者必须是精灵
+
+重量：2~
+
+// Erinyes NWN soundset
+// --------------------
+@10123 = ~你好啊。~ [t-eri02a]                              // = vs_nsuccf_hi.wav   - #52705
+@10124 = ~会见！~ [t-eri06]                               // = vs_nsuccf_bye.wav  - #50708
+@10125 = ~跪下！~ [t-eri01a]                                 // = vs_nsuccf_bat1.wav - #52700
+@10126 = ~你是我的！~ [t-eri01b]                                  // = vs_nsuccf_bat2.wav - #52701
+@10127 = ~Rrrauugh!!~ [t-eri01c]                                     // = vs_nsuccf_bat3.wav - #52702
+@10128 = ~你诱惑着你从未想过的痛苦。~ [t-eri01d] // = vs_nsuccf_warn.wav - #52711
+@10129 = ~撕裂他们的肉体！他们将不需要它。~ [t-eri01e]       // = vs_nsuccf_attk.wav - #52699
+@10130 = ~你想治愈我。你必须。~ [t-eri10]                  // = vs_nsuccf_heal.baf - #52703
+@10131 = ~我需要和你谈谈。过来。~ [t-eri02b]           // = vs_nsuccf_say.wav  - #52710
+@10132 = ~到我身边来。帮我一下。~ [t-eri02c]                 // = vs_nsuccf_help.baf - #52704
+@10133 = ~哦，是啊。~ [t-eri02d]                                       // = vs_nsuccf_yes.wav  - #52706
+@10134 = ~哈！哈-哈-哈……~ [t-eri02e]                                // = vs_nsuccf_haha.wav
+@10135 = ~哦，太好了。~ [t-eri05]                          // = vs_nsuccf_vict.wav - #52709
+@10136 = ~不。不。~ [t-eri08]                                         // = vs_nsuccf_no.wav   - #52707
+// sound clips without strref: t-eri03 = vs_nsuccf_atk1.wav - t-eri04 = vs_nsuccf_atk2.wav - t-eri07.wav = vs_nsuccf_hit1.wav - t-eri09 = vs_nsuccf_dead.wav (English clip corrupted --> replaced with English one)
+
+// Succubi NWN soundset
+// --------------------
+@10140 = ~是吗？~ [t-suc02]                            // = c_succubus_slct.wav - #10835
+@10141 = ~你的死将是美丽的！~ [t-suc01a] // = c_succubus_bat1.wav - #10833
+@10142 = ~你的灵魂将属于我！~ [t-suc01b]       // = c_succubus_bat2.wav - #10834
+// sound clips without strref: t-suc03 = c_succubus_atk1.wav - t-suc04 = c_succubus_atk2.wav - t-suc05 = c_succubus_atk3.wav - t-suc07 = c_succubus_hit1.wav - t-suc08 = c_succubus_hit2.wav - t-suc09 = c_succubus_dead.wav
+
+
+/* =================================================== *
+ *               Distinctive Undead (400)              *
+ * --------------------------------------------------- *
+ *  t-undead.tpa traified                              *
+ * =================================================== */
+@10401 = ~大型僵尸~
+
+
+/* =================================================== *
+ *          Svirfneblins Animations (480-490)          *
+ * --------------------------------------------------- *
+ *  t-svirfneblin.tpa traified                         *
+ * =================================================== */
+
+// Svirfneblins NWN soundsets
+// --------------------------
+@10400 = ~是的。~ [t-sva01b]                                                  // = vs_ngnomem1_yes.wav  - #52099
+@10401 = ~救命！救命！~ [t-sva03b]                                           // = vs_ngnomem1_help.wav - #52097
+@10402 = ~我的力量将毁灭你！~ [t-sva02c]                       // = vs_ngnomem1_bat2.wav - #52094
+@10403 = ~去死吧！~ [t-sva02d]                                                  // = vs_ngnomem1_bat3.wav - #52095
+@10404 = ~我受伤了！救治我吧！~ [t-sva07]                                 // = vs_ngnomem1_heal.wav - #52096
+@10405 = ~美好的一天！~ [t-sva01a]                                             // = vs_ngnomem1_hi.wav   - #52098
+@10406 = ~我真的需要和你谈谈。~ [t-sva01c]                         // = vs_ngnomem1_say.wav  - #52103
+@10407 = ~呼哈哈哈！~ [t-sva01d]                                          // = vs_ngnomem1_haha.wav
+@10408 = ~如果你打扰我，你将面临*极大*的危险。你就等着吧！~ [t-sva08] // = vs_ngnomem1_warn.wav - #52104
+@10409 = ~事情就是这样做的！~ [t-sva09]                     // = vs_ngnomem1_vict.wav - #52102
+@10410 = ~不……~ [t-sva10]                                                  // = vs_ngnomem1_no.wav   - #52100
+
+@10411 = ~过来聊会儿。~ [t-svn01c]                                // = vs_ngnomem2_say.wav  - #52116
+@10412 = ~请你帮帮我！~ [t-svn03b]                                       // = vs_ngnomem2_help.wav - #52110
+@10413 = ~拿着！~ [t-svn02c]                                            // = vs_ngnomem2_bat2.wav - #52107
+@10414 = ~邪恶在我面前降临！~ [t-svn02d]                                  // = vs_ngnomem2_bat3.wav - #52108
+@10415 = ~我受伤了！~ [t-svn07]                                             // = vs_ngnomem2_heal.wav - #52109
+@10416 = ~你好啊。~ [t-svn01a]                                          // = vs_ngnomem2_hi.wav   - #52111
+@10417 = ~是的。~ [t-svn01b]                                                  // = vs_ngnomem2_yes.wav  - #52112
+@10418 = ~哦 呼 呼 呼！~ [t-svn01d]                                          // = vs_ngnomem2_haha.wav
+@10419 = ~你正朝着一个好的方向前进，你就是！~ [t-svn08]            // = vs_ngnomem2_warn.wav - #52117
+@10420 = ~看看这个！~ [t-svn09]                                     // = vs_ngnomem2_vict.wav - #52115
+@10421 = ~不……~ [t-svn10]                                                  // = vs_ngnomem2_no.wav   - #52113
+
+@10422 = ~再见！~ [t-sva03a]                                              // = vs_ngnomem1_bye.wav  - #52101
+@10423 = ~杀了那个渣滓！把它们做好！~ [t-sva02a]                         // = vs_ngnomem1_attk.wav - #52092
+@10424 = ~血腥的地狱！~ [t-sva02b]                                // = vs_ngnomem1_bat1.wav - #52093
+
+@10425 = ~再见。~ [t-svn03a]                                             // = vs_ngnomem2_bye.wav  - #52114
+@10426 = ~抓住他们！~ [t-svn02a]                                              // = vs_ngnomem2_attk.wav - #52105
+@10427 = ~我会把切成小块儿！~ [t-svn02b]                          // = vs_ngnomem2_bat1.wav - #52106
+
+// sound clips without strref: sva04a = vs_ngnomem1_atk3.wav - sva04b = vs_ngnomem1_atk1.wav - sva05a = vs_ngnomem1_hit1.wav - sva05b = vs_ngnomem1_hit3.wav - sva06a = vs_ngnomem1_dead.wav - sva06b = vs_ngnomem1_hit2.wav
+// sound clips without strref: svn04a = vs_ngnomem2_atk1.wav - svn04b = vs_ngnomem2_atk2.wav - svn05a = vs_ngnomem2_hit1.wav - svn05b = vs_ngnomem2_hit3.wav - svn06a = vs_ngnomem2_dead.wav - svn06b = vs_ngnomem2_hit2.wav
+
+
+/* =================================================== *
+ *              More NWN Animations (650)              *
+ * --------------------------------------------------- *
+ *  t-nwnanims.tpa traified                            *
+ * =================================================== */
+
+// amel_pc_nwn soundset
+// --------------------
+@10651 = ~你要什么？~ [t-aml02a] // = vs_nrangem1_hi.wav   - #52643
+@10652 = ~看招！~ [t-aml01a]      // = vs_nrangem1_bat1.wav - #52638
+@10653 = ~去死吧！~ [t-aml01b]  // = vs_nrangem1_bat2.wav - #52639
+@10654 = ~是吗？~ [t-aml02b]              // = vs_nrangem1_yes.wav  - #52644
+// sound clips without strref: t-aml03 = vs_nrangem1_atk2.wav - t-aml04 = vs_nrangem1_atk3.wav - t-aml07 = vs_nrangem1_hit2.wav - t-aml08 = vs_nrangem1_hit3.wav - t-aml09 = vs_nrangem1_dead.wav
+
+// vedred_nwn soundset
+// -------------------
+// sound clips without strref: t-ved01a = vs_fx2fighm_bat1.wav - t-ved01b = vs_fx2fighm_bat2.wav - t-ved02b = vs_fx2fighm_hi.wav - t-ved02a = vs_fx2fighm_yes.wav - t-ved03 = vs_fx2fighm_atk2.wav - t-ved04 = vs_fx2fighm_atk3.wav - t-ved07 = vs_fx2fighm_hit1.wav - t-ved08 = vs_fx2fighm_hit3.wav - t-ved09 = vs_fx2fighm_dead.wav
+
+
+/* =================================================== *
+ *        More PsT Animations (710-720-730-740)        *
+ * --------------------------------------------------- *
+ *  t-pstanims.tpa traified                            *
+ * =================================================== */
+
+// Tiefling males NWN soundset
+// ---------------------------
+@71001 = ~你不可能赢得战斗！~ [t-tim01a]                                    // vs_nx2valem_bat1.wav - #101088
+@71002 = ~我们跳进火海！~ [t-tim01b]                                      // vs_nx2valem_bat2.wav - #101089
+@71003 = ~哈 哈 哈 哈！~ [t-tim01c]                                                  // vs_nx2valem_bat3.wav
+@71004 = ~我的血液需要你的血液，它*会*得到满足。~ [t-tim01d]          // vs_nx2valem_tant.wav - #101094
+@71005 = ~你现在想死吗？因为我肯定可以安排。~ [t-tim01e] // vs_nx2valem_warn.wav - #101126
+@71006 = ~你好。~ [t-tim02a]                                                    // vs_nx2valem_hi.wav   - #101113
+@71007 = ~是的~ [t-tim02b]                                                          // vs_nx2valem_yes.wav  - #101114
+@71008 = ~听从您的吩咐。~ [t-tim02c]                                              // vs_nx2valem_slct.wav - #101112
+@71009 = ~我们这里有什么？~ [t-tim02d]                                         // vs_nx2valem_look.wav - #101102
+@71010 = ~不。~ [t-tim11]                                                            // vs_nx2valem_no.wav   - #101115
+@71011 = ~我的魔法没起作用！~ [t-tim12]                                         // vs_nx2valem_spel.wav - #101099
+// sound clips without strref: t-tim03 = vs_nx2valem_atk1.wav - t-tim07 = vs_nx2valem_hit1.wav - t-tim09 = vs_nx2valem_dead.wav
+
+// Tiefling females NWN soundset
+// -----------------------------
+@71021 = ~你在这个领域的时间结束了！~ [t-tif01] // = c_tiefling_bat1.wav - #10836
+@71022 = ~是吗？我在听。~ [t-tif02]                   // = c_tiefling_slct.wav - #10837
+// sound clips without strref: t-tif03 = c_tiefling_atk1.wav - t-tif07 = c_tiefling_hit1.wav - t-tif09 = c_tiefling_dead.wav
